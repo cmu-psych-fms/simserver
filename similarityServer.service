@@ -1,0 +1,19 @@
+[Unit]
+Description=UBMC Similarity Service Server
+After=network.target
+
+
+[Service]
+Type=simple
+User=dfm
+WorkingDirectory=/home/dfm/simserver
+ExecStart=/home/dfm/simserver/similarity-server
+Restart=on-failure
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=simserver
+
+
+[Install]
+WantedBy=multi-user.target

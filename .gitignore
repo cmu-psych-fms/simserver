@@ -1,0 +1,10 @@
+*.fasl
+*.fas
+*.?x??fsl
+*.jar
+*.class
+*.gz
+sts
+umbc_sts
+similarity-server
+
