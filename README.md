@@ -8,7 +8,7 @@ The UMBC code and accompanying date are rather large, far too large to fit into 
 GitHub LFS (large file system) might be able to deal with this, it’s really quite painful, doubly so if
 all you really care about is the client. So the only stuff
 committed to this repo is the easy, CMU written stuff; if needed the UMBC stuff will have to acquired out of band
-in some way, probably just copied from Koalemos. The full directory tree for the server version is at
+in some way, probably just copied from Mneme. The full directory tree for the server version is at
 the end of this document.
 
 ## Client

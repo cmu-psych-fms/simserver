@@ -19,7 +19,7 @@
 
 (define-constant +version+ "2021-04-16-001" :test #'equalp)
 
-(define-constant +default-host+ "koalemos.psy.cmu.edu" :test #'equal)
+(define-constant +default-host+ "mneme.lan.cmu.edu" :test #'equal)
 (define-constant +default-port+ 9543)
 (define-constant +executable-name+ "similarity-server" :test #'equal)
 (define-constant +default-similarity-file+
